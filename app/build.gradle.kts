@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 }
-
 android {
     namespace = "com.example.plantscan"
     compileSdk = 36
@@ -62,4 +61,7 @@ dependencies {
     implementation("androidx.camera:camera-view:1.3.1")
     implementation("com.google.ai.edge.litert:litert:1.4.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("androidx.compose.foundation:foundation")
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
 }
